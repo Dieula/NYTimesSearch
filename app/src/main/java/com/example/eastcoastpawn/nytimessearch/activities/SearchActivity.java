@@ -121,9 +121,8 @@ public class SearchActivity extends AppCompatActivity {
             }
 
         });
-      }
     }
-
+}
 
 
 

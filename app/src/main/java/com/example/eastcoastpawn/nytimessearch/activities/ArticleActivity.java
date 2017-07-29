@@ -21,7 +21,7 @@ public class ArticleActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-       Article article  = (Article) getIntent().getSerializableExtra("article");
+        Article article  = (Article) getIntent().getSerializableExtra("article");
 
         WebView webView = (WebView) findViewById(R.id.wvArticle);
 
@@ -35,5 +35,4 @@ public class ArticleActivity extends AppCompatActivity {
         webView.loadUrl(article.getWebUrl());
     }
 }
-
 
