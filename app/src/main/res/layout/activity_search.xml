@@ -1,28 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> 2ca92a91c78c8925db43e91d21077d782e9fb733
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:background="@color/colorAccent"
     tools:context="com.example.eastcoastpawn.nytimessearch.activities.SearchActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+=======
+    tools:context="com.example.eastcoastpawn.nytimessearch.activities.SearchActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+>>>>>>> 2ca92a91c78c8925db43e91d21077d782e9fb733
         android:theme="@style/AppTheme.AppBarOverlay">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
+<<<<<<< HEAD
             android:background="@color/colorAccent"
+=======
+            android:background="?attr/colorPrimary"
+>>>>>>> 2ca92a91c78c8925db43e91d21077d782e9fb733
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     </android.support.design.widget.AppBarLayout>
 
+<<<<<<< HEAD
     <include layout="@layout/content_search" />
 
     />
+=======
+    <include layout="@layout/content_search"/>
+
+   />
+>>>>>>> 2ca92a91c78c8925db43e91d21077d782e9fb733
 
 </android.support.design.widget.CoordinatorLayout>

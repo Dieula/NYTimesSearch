@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -32,10 +33,26 @@
         android:layout_height="75dp"
         android:scaleType="center"
         android:src="@mipmap/ic_launcher" />
+=======
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/ivImage"
+        android:src="@mipmap/ic_launcher"
+       android:scaleType="center"
+        />
+>>>>>>> 2ca92a91c78c8925db43e91d21077d782e9fb733
 
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
+<<<<<<< HEAD
         android:layout_height="wrap_content"
         android:ellipsize="end"
         android:maxLines="2"
@@ -45,3 +62,10 @@
 
     </LinearLayout>
 </RelativeLayout>
+=======
+        android:layout_height="match_parent"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:text="TextView"/>
+</LinearLayout>
+>>>>>>> 2ca92a91c78c8925db43e91d21077d782e9fb733

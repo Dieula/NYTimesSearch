@@ -44,7 +44,11 @@ public class ArticleArrayAdapter extends ArrayAdapter<Article> {
         if (TextUtils.isEmpty(thumbnail)){
             //Do nothing
         }else{
+<<<<<<< HEAD
             Picasso.with(getContext()).load(thumbnail).placeholder(R.drawable.place2).into(imageView);
+=======
+            Picasso.with(getContext()).load(thumbnail).placeholder(R.drawable.place1).into(imageView);
+>>>>>>> 2ca92a91c78c8925db43e91d21077d782e9fb733
         }
 
         // Return the completed view to render on screen

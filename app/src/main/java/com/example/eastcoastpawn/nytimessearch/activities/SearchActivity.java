@@ -41,7 +41,10 @@ public class SearchActivity extends AppCompatActivity {
     GridView gvResults;
     ArrayList<Article> articles;
     ArticleArrayAdapter adapter;
+<<<<<<< HEAD
    // SearchSettings settings;
+=======
+>>>>>>> 2ca92a91c78c8925db43e91d21077d782e9fb733
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,9 +54,12 @@ public class SearchActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         setupViews();
 
+<<<<<<< HEAD
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setLogo(R.mipmap.ic_icon);
         getSupportActionBar().setDiplayUseLogoEnabled(true);
+=======
+>>>>>>> 2ca92a91c78c8925db43e91d21077d782e9fb733
     }
 
     private void setupViews() {
@@ -68,7 +74,11 @@ public class SearchActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent i = new Intent(getApplicationContext(),ArticleActivity.class);
                 Article article = articles.get(position);
+<<<<<<< HEAD
                // Toast.makeText(SearchActivity.this, ""+article.getThumbNail(), Toast.LENGTH_SHORT).show();
+=======
+                Toast.makeText(SearchActivity.this, ""+article.getThumbNail(), Toast.LENGTH_SHORT).show();
+>>>>>>> 2ca92a91c78c8925db43e91d21077d782e9fb733
                 i.putExtra("article", article);
                 startActivity(i);
             }
@@ -92,8 +102,12 @@ public class SearchActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+<<<<<<< HEAD
             Intent i = new Intent(this, SettingsActivity.class);
             startActivity(i);
+=======
+            return true;
+>>>>>>> 2ca92a91c78c8925db43e91d21077d782e9fb733
         }
 
         return super.onOptionsItemSelected(item);
@@ -107,6 +121,7 @@ public class SearchActivity extends AppCompatActivity {
         RequestParams params = new RequestParams();
         params.put("api-key", "f31815d224f14b34aa20d04579e9c9d9");
         params.put("q", query);
+<<<<<<< HEAD
 /*
         // if settings begin date has been set apply begin_date
 
@@ -150,6 +165,29 @@ public class SearchActivity extends AppCompatActivity {
         }
     }
 
+=======
+        client.get(url, params, new JsonHttpResponseHandler(){
+            @Override
+            public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
+                super.onSuccess(statusCode, headers, response);
+                Log.d("DEBUG", response.toString());
+                JSONArray articleJsonResults = null;
+                try {
+                    articleJsonResults = response.getJSONObject("response").getJSONArray("docs");
+                    adapter.addAll(Article.fromJSONArray(articleJsonResults));
+                    // adapter.clear();
+                    adapter.notifyDataSetChanged();
+                    Log.d("DEBUG", articles.toString());
+
+                }catch (JSONException e){
+                    e.printStackTrace();
+                }
+            }
+
+        });
+    }
+}
+>>>>>>> 2ca92a91c78c8925db43e91d21077d782e9fb733
 
 
 

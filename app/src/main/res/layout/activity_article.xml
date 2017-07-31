@@ -4,7 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2ca92a91c78c8925db43e91d21077d782e9fb733
     tools:context="com.example.eastcoastpawn.nytimessearch.activities.ArticleActivity">
 
     <android.support.design.widget.AppBarLayout
@@ -16,7 +19,11 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
+<<<<<<< HEAD
             android:background="@color/colorAccent"
+=======
+            android:background="?attr/colorPrimary"
+>>>>>>> 2ca92a91c78c8925db43e91d21077d782e9fb733
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     </android.support.design.widget.AppBarLayout>

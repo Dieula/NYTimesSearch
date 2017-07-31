@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/NYTimesSearch-master.iml" filepath="$PROJECT_DIR$/NYTimesSearch-master.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/NYTimesSearch.iml" filepath="$PROJECT_DIR$/NYTimesSearch.iml" />
+>>>>>>> 2ca92a91c78c8925db43e91d21077d782e9fb733
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

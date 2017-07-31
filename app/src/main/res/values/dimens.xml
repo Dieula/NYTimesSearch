@@ -1,3 +1,8 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
+<<<<<<< HEAD
+=======
+    <dimen name="activity_vertical_margin" />
+    <dimen name="activity_horizontal_margin" />
+>>>>>>> 2ca92a91c78c8925db43e91d21077d782e9fb733
 </resources>

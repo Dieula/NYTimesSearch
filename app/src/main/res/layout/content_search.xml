@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
+=======
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>>>>>>> 2ca92a91c78c8925db43e91d21077d782e9fb733
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.eastcoastpawn.nytimessearch.activities.SearchActivity">
 
@@ -12,6 +21,7 @@
         android:id="@+id/etQuery"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_above="@+id/gvResults"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
@@ -22,11 +32,23 @@
         android:textColor="@android:color/background_light"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="20dp" />
+=======
+        android:ems="10"
+        android:hint="@string/hint"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_above="@+id/gvResults"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="17dp"
+        android:layout_toStartOf="@+id/btnSearch" />
+>>>>>>> 2ca92a91c78c8925db43e91d21077d782e9fb733
 
     <Button
         android:id="@+id/btnSearch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_alignParentEnd="true"
         android:layout_toEndOf="@+id/etQuery"
         android:background="?android:attr/colorAccent"
@@ -48,5 +70,21 @@
         android:numColumns="4"
         android:stretchMode="columnWidth"
         android:verticalSpacing="-1dp" />
+=======
+        android:hint="@string/Search"
+        android:text="@string/Search"
+        android:onClick="onArticleSearch"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp" />
+
+    <GridView
+        android:id="@+id/gvResults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSearch"
+        android:layout_centerHorizontal="true"
+        android:numColumns="4" />
+>>>>>>> 2ca92a91c78c8925db43e91d21077d782e9fb733
 
 </RelativeLayout>

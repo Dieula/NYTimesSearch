@@ -14,23 +14,32 @@
             android:name=".activities.SearchActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2ca92a91c78c8925db43e91d21077d782e9fb733
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2ca92a91c78c8925db43e91d21077d782e9fb733
         </activity>
         <activity
             android:name=".activities.ArticleActivity"
             android:label="@string/title_activity_article"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+<<<<<<< HEAD
 
         <activity
             android:name=".activities.SettingsActivity"
             android:label="Settings"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+=======
+>>>>>>> 2ca92a91c78c8925db43e91d21077d782e9fb733
     </application>
 
 </manifest>

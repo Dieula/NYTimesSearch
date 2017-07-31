@@ -11,8 +11,12 @@
     <WebView
         android:id="@+id/wvArticle"
         android:layout_width="match_parent"
+<<<<<<< HEAD
         android:layout_height="match_parent"
         android:background="@color/colorPrimary">
+=======
+        android:layout_height="match_parent">
+>>>>>>> 2ca92a91c78c8925db43e91d21077d782e9fb733
 
     </WebView>
 

@@ -5,7 +5,10 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.Serializable;
+<<<<<<< HEAD
 import java.text.SimpleDateFormat;
+=======
+>>>>>>> 2ca92a91c78c8925db43e91d21077d782e9fb733
 import java.util.ArrayList;
 
 
@@ -33,6 +36,7 @@ public class Article implements Serializable {
 
     String headline;
     String thumbNail;
+<<<<<<< HEAD
     String source;
 
     public SimpleDateFormat getPubDate() {
@@ -46,12 +50,17 @@ public class Article implements Serializable {
     SimpleDateFormat pubDate;
     String newsDesk;
 
+=======
+>>>>>>> 2ca92a91c78c8925db43e91d21077d782e9fb733
 
     public Article(JSONObject jsonObject) {
         try {
             this.webUrl = jsonObject.getString("web_url");
             this.headline = jsonObject.getJSONObject("headline").getString("main");
+<<<<<<< HEAD
             this.newsDesk = jsonObject.getString("news_desk");
+=======
+>>>>>>> 2ca92a91c78c8925db43e91d21077d782e9fb733
 
             JSONArray multimedia = jsonObject.getJSONArray("multimedia");
             if (multimedia.length() > 0) {

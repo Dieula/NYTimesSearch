@@ -4,5 +4,21 @@
     <string name="hint">Enter Search Query</string>
     <string name="Search">Search</string>
     <string name="title_activity_article">ArticleActivity</string>
+<<<<<<< HEAD
     <string name="fshion_style"><![CDATA[Fshion & Style]]></string>
+=======
+    <string name="search_parameters_label" />
+    <string name="begin_date" />
+    <string name="choose_date" />
+    <string name="sort" />
+    <string name="filter_news_desk" />
+    <string name="arts" />
+    <string name="none" />
+    <string name="oldest" />
+    <string name="fashion_style" />
+    <string name="sports" />
+    <string name="save" />
+    <string name="cancel" />
+    <string name="newest" />
+>>>>>>> 2ca92a91c78c8925db43e91d21077d782e9fb733
 </resources>
